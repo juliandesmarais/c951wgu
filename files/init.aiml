@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+         <pattern>hello</pattern>
+         <template>Welcome to the WGU C951 Career Recommendation Helper. Would you like to begin?
+         <button>
+             <text>Yes</text>
+             <postback>startrecs</postback>
+         </button>
+          <button>
+             <text>No</text>
+             <postback>exit</postback>
+         </button>
+         </template>
+    </category>
+    
+     <category>
+        <pattern>exit</pattern>
+        <template>Thank you, please return if you would like career recommendations.</template>
+    </category>
+    
+    <category>
+        <pattern>startrecs</pattern>
+        <template>Out of these topics, which would you consider to be most interesting?
+            <button>
+                <text>Engineering</text>
+                <postback>engineeringq2</postback>
+            </button>
+            <button>
+                <text>Design</text>
+                <postback>designq2</postback>
+            </button>
+            <button>
+                <text>Security</text>
+                <postback>securityq2</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>engineeringq2</pattern>
+        <template>What is your preferred programming language?
+            <button>
+                <text>Javascript</text>
+                <postback>WEBDEV</postback>
+            </button>
+            <button>
+                <text>Python</text>
+                <postback>BACKDEV</postback>
+            </button>
+            <button>
+                <text>Swift</text>
+                <postback>MOBILEDEV</postback>
+            </button>
+            <button>
+                <text>Kotlin</text>
+                <postback>MOBILEDEV</postback>
+            </button>
+            <button>
+                <text>No Preference</text>
+                <postback>BACKDEV</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>designq2</pattern>
+        <template>What is your preferred programming language?
+            <button>
+                <text>Javascript</text>
+                <postback>UIUX</postback>
+            </button>
+            <button>
+                <text>Python</text>
+                <postback>WEBDEV</postback>
+            </button>
+            <button>
+                <text>Swift</text>
+                <postback>MOBILEDEV</postback>
+            </button>
+            <button>
+                <text>Kotlin</text>
+                <postback>BACKDEV</postback>
+            </button>
+            <button>
+                <text>No Preference</text>
+                <postback>UIUX</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>securityq2</pattern>
+        <template>What is your preferred programming language?
+            <button>
+                <text>Javascript</text>
+                <postback>INFOSEC</postback>
+            </button>
+            <button>
+                <text>Python</text>
+                <postback>INFOSEC</postback>
+            </button>
+            <button>
+                <text>Swift</text>
+                <postback>INFOSEC</postback>
+            </button>
+            <button>
+                <text>Kotlin</text>
+                <postback>INFOSEC</postback>
+            </button>
+            <button>
+                <text>No Preference</text>
+                <postback>INFOSEC</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

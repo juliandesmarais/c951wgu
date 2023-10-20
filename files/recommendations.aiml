@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>UIUX</pattern>
+        <template>
+            Your recommended career path: <b>UI/UX Designer</b>
+            <br></br>
+            <br></br>
+            UI/UX Designers focus on the user experience and interface design, ensuring that the product is visually appealing, easy to use, and engaging. They create seamless and intuitive user experiences, prioritizing user satisfaction and interaction. This choice is based on your interest in Design and your preferred programming language.
+            According to Glassdoor, the national average salary for a UI/UX Designer is $85,277 in the United States.
+            <br></br>
+            Source: <a href="https://www.glassdoor.com/Salaries/ux-designer-salary-SRCH_KO0,11.htm">Glassdoor</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>WEBDEV</pattern>
+        <template>
+            Your recommended career path: <b>Web Developer</b>
+            <br></br>
+            <br></br>
+            Web developers create, code, and maintain websites, ensuring their functionality and performance. They use various programming languages and frameworks to build user-friendly and responsive web applications. This recommendation aligns with your interest in Engineering and your preferred programming language.
+            According to Glassdoor, the national average salary for a Web Developer is $77,200 in the United States.
+            <br></br>
+            Source: <a href="https://www.glassdoor.com/Salaries/web-developer-salary-SRCH_KO0,13.htm">Glassdoor</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOBILEDEV</pattern>
+        <template>
+            Your recommended career path: <b>Mobile App Developer</b>
+            <br></br>
+            <br></br>
+            Mobile app developers specialize in creating applications for mobile devices, contributing to the expanding world of mobile technology. They utilize various programming languages and platforms to develop innovative and user-friendly mobile applications. This choice is recommended based on your interest in Engineering and your preferred programming language.
+            According to Glassdoor, the national average salary for a Mobile App Developer is $103,805 in the United States.
+            <br></br>
+            Source: <a href="https://www.glassdoor.com/Salaries/mobile-app-developer-salary-SRCH_KO0,20.htm">Glassdoor</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BACKDEV</pattern>
+        <template>
+            Your recommended career path: <b>Backend Developer</b>
+            <br></br>
+            <br></br>
+            Backend developers focus on the server-side application logic, ensuring the integration of work done by front-end developers. They create and maintain the technology behind the scenes, enabling the front-end to function effectively. This suggestion is made based on your interest in Engineering and your preferred programming language.
+            According to Glassdoor, the national average salary for a Backend Developer is $114,196 in the United States.
+            <br></br>
+            Source: <a href="https://www.glassdoor.com/Salaries/backend-developer-salary-SRCH_KO0,17.htm">Glassdoor</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INFOSEC</pattern>
+        <template>
+            Your recommended career path: <b>Information Security Analyst</b>
+            <br></br>
+            <br></br>
+            Information security analysts play a crucial role in safeguarding an organization's computer systems and networks. They implement security measures to protect a company's computer networks and systems from cyber threats. This choice is suggested based on your interest in Security and your preferred programming language.
+            According to Glassdoor, the national average salary for an Information Security Analyst is $103,590 in the United States.
+            <br></br>
+            Source: <a href="https://www.glassdoor.com/Salaries/information-security-analyst-salary-SRCH_KO0,28.htm">Glassdoor</a>
+        </template>
+    </category>
+</aiml>
